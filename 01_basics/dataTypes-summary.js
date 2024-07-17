@@ -31,5 +31,30 @@ const myFunction = function(){
     console.log("Hello world")
 }
 
-console.log(typeof scoreValue)
-console.log(typeof myFunction)
+// console.log(typeof scoreValue)
+// console.log(typeof myFunction)
+
+// *************************************************************
+
+// Stack(Primitive), Heap(Non Primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+// console.log(myYoutubename)
+// console.log(anothername)
+
+let user1 = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let user2 = user1
+
+user2.email = "hitesh@google.com"
+
+console.log(user1.email)
+console.log(user2.email)
+
